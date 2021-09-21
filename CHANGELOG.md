@@ -246,7 +246,7 @@
 * Fix an infinite-loop on iOS with momentum enabled
 * Fix the snapping effect when releasing touch without interia on iOS with momentum enabled
 * Fix autoplay on Android, it should start and stop properly and stop being triggered while swiping
-* Use `View.propTypes.style` instead of `PropTypes.number` in styles validation (thanks [@pesakitan22](https://github.com/pesakitan22))
+* Use `{}` instead of `PropTypes.number` in styles validation (thanks [@pesakitan22](https://github.com/pesakitan22))
 
 ## v1.5.0
 
