@@ -1,8 +1,9 @@
 import React, { PureComponent } from 'react';
-import { I18nManager, Platform, View, ViewPropTypes } from 'react-native';
+import { I18nManager, Platform, View } from 'react-native';
 import PropTypes from 'prop-types';
 import PaginationDot from './PaginationDot';
 import styles from './Pagination.style';
+const ViewPropTypes = { style: null };
 
 const IS_IOS = Platform.OS === 'ios';
 const IS_RTL = I18nManager.isRTL;
